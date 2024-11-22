@@ -63,6 +63,27 @@ modules:
   - url: https://edrys-labs.github.io/module-editor/index.html
     config:
       editorText: |
+        #include <iostream> // Including the input-output stream header file
+
+        using namespace std; // Using the standard namespace
+
+        // Function to calculate the sum of two numbers
+        int sumOfTwo(int a, int b) {
+          
+        }
+
+        int main() { 
+          cout << "\n\n Print the sum of two numbers :\n"; 
+          cout << "-----------------------------------\n"; 
+            
+          int num1 = 
+          int num2 = 
+            
+          // Calling the sumOfTwo function and outputting the result
+          cout << " The sum of " << num1 << " and " << num2 << " is : " << sumOfTwo(num1, num2) << "\n\n";
+            
+          return 0; 
+        }
       runCommand: execute
       language: cpp
       theme: light
@@ -79,7 +100,7 @@ modules:
 
       1. **Write Your Code**:
 
-        - On the editor, write a C++ program that takes two numbers as input, adds them together, and displays the result.
+        - On the editor, modify the starting code to create a function that calculates the sum of two numbers.
 
       2. **Compile and Run**:
 
