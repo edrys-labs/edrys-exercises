@@ -68,7 +68,7 @@ modules:
       theme: light
     showInCustom: station
     width: full
-    height: dark
+    height: medium
   - url: >-
       https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
     config: >-
@@ -212,13 +212,6 @@ modules:
     showInCustom: station
     width: full
     height: huge
-  - url: https://edrys-labs.github.io/module-station-stream/index.html
-    stationConfig:
-      video: true
-      audio: false
-    showInCustom: station
-    width: half
-    height: medium
   - url: http://localhost:8080/index.html
     stationConfig:
       server: http://localhost:5000/pty
