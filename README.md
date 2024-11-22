@@ -8,7 +8,7 @@ Some labs use the [module-pyxtermjs](https://github.com/edrys-labs/module-pyxter
 The easiest way to do this, is by installing docker and running the following command:
 
 ```bash
-docker run -it -p 5000:5000 --device=/dev/ttyACM0:/dev/ttyACM0 crosslab/edrys_pyxtermjs_arduino:latest
+docker run -it -p 5000:5000 --device=/dev/ttyACM0:/dev/ttyACM0 edrys-labs/pyxterm-server:latest
 ```
 This will download the pyxtermjs terminal-server from docker-hub and run it in a secure environment.
 

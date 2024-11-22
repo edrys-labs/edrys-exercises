@@ -246,7 +246,7 @@ modules:
     showInCustom: station
     width: half
     height: medium
-  - url: https://edrys-labs.github.io/module-pyxtermjs/index.html
+  - url: https://module-pyxtermjs.netlify.app/index.html
     stationConfig:
       server: http://localhost:5000/pty
       execute: execute
