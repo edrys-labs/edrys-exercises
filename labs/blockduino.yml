@@ -198,7 +198,7 @@ modules:
 
       docker run -it -p 5000:5000
       --device=/dev/ttyACM0:/dev/ttyACM0
-      crosslab/edrys_pyxtermjs_arduino
+      edrys-labs/pyxterm-server:latest
 
       ```
 
@@ -213,7 +213,7 @@ modules:
       project
 
 
-      https://github.com/edrys-labs/module-pyxtermjs
+      https://github.com/edrys-labs/module-pyxtermjs/tree/feat/trzsz
 
 
       ... the easiest way is to perform the following steps:
@@ -223,7 +223,7 @@ modules:
 
       # 1. clone the repository or download the folder manually
 
-      git clone https://github.com/edrys-labs/module-pyxtermjs
+      git clone https://github.com/edrys-labs/module-pyxtermjs/tree/feat/trzsz
 
 
       # 2. install all required sources
