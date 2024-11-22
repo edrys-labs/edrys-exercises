@@ -322,7 +322,7 @@ modules:
     showInCustom: station
     width: half
     height: medium
-  - url: https://module-pyxtermjs.netlify.app/index.html
+  - url: https://jh-488.github.io/module-pyxtermjs/index.html
     stationConfig:
       server: http://localhost:5000/pty
       execute: execute
