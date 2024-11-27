@@ -253,5 +253,5 @@ modules:
         teacher: true
         student: true
     showInCustom: station
-    width: full
+    width: half
     height: medium
