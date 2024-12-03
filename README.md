@@ -39,4 +39,6 @@ For Windows users, instead of the terminal, a NodeJs server is needed ro run loc
 
 Instructions on how to run the server can be found in the [edrys_windows_server](https://github.com/jh-488/edrys_server) repository.
 
+https://raw.githubusercontent.com/edrys-labs/edrys-exercises/main/labs/blink_windows.yml
+
 [<img src="https://img.shields.io/badge/%F0%9F%9A%80%20-%20Deploy%20Lab%20-%20light?style=plastic" height="25" />](https://edrys-labs.github.io/?/deploy/https://raw.githubusercontent.com/edrys-labs/edrys-exercises/main/labs/blink_windows.yml)
