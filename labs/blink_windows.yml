@@ -1,0 +1,114 @@
+id: SOL5YCj3DZza09sjus6waPbUQO721rmpCxZlDq23
+createdBy: JH488
+dateCreated: 27032024 
+name: Blink - Windows
+meta:
+  logo: >-
+    
+  description: >-
+    Simple Arduino exercise, to turn on/off the built-in LED.  
+  selfAssign: true
+  defaultNumberOfRooms: 0
+  id: 79sFHo6ONB1S25cTN7emXmOibQ2HNWb2G9X3Xn2y
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config: >
+      # Welcome to the Edrys -  Blink - challenge
+
+      This is a simple exercise to get you started with Arduino development.
+
+      In this exercise you will need to write a program that will turn on and off the built-in LED.
+
+
+      ## Open a station
+
+      To get started, open the station where the code editor will be available.
+
+      (a new station will appear on the navigation bar on the left.
+      Click on it and you will be redirected to the station.)
+
+    studentConfig: ''
+    teacherConfig: >-
+      ## Welcome for Teachers
+
+
+      > This can be used as a base laboratory to create further and more
+      elaborate labs with [edrys-Lite](https://edrys-labs.github.io).
+
+      > You are currently in the Lobby. If there is a station available you can
+      switch to it and try out the terminal.
+
+      > Otherwise, if you are in teacher-mode you can share a lab by clicking
+      onto `setting` >> `station` and then by clicking the presented link,
+
+      > which is the same as the current link, but only with the word `station`
+      instead of `classroom`.
+    stationConfig: ''
+    showInCustom: lobby
+    width: full
+    height: huge
+  - url: https://jh-488.github.io/Edrys_Code_Editor/index.html
+    config:
+      editorText: |
+        // the setup function runs once when you press reset or power the board
+        void setup() {
+
+        }
+
+        // the loop function runs over and over again forever
+        void loop() {
+
+        }
+      runCommand: execute
+      language: cpp
+    showInCustom: station
+    width: full
+    height: huge
+    serverURL: ws://localhost:8080
+  - url: >-
+      https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
+    config: >-
+      # Arduino Tutorial
+
+
+      ## Your First Project - The Blinking LED
+
+
+      **Objective**: To make an LED blink on and off every second.
+
+
+        - Start writing your code in the editor on the left.
+        - Click on the `Run` button to compile and upload your code to the Arduino board.
+        - The LED should start blinking on and off every second, if the code is correct.
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: >-
+      ## Instructions for Station-Sharing 
+
+      You are currently responsible for sharing a station of this lab.
+
+
+      This lab is designed for stations running on a windows machine.
+
+
+      To allow other users to access the station and upload their code to the connected board, you need to run the following server locally:
+
+
+      https://github.com/jh-488/edrys_server
+    showInCustom: station
+    width: half
+    height: huge
+  - url: https://edrys-labs.github.io/module-station-stream/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig:
+      video: true
+      audio: false
+    showInCustom: Station
+    width: half
+    height: medium
+  
