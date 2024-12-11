@@ -105,6 +105,11 @@ modules:
     showInCustom: station
     width: full
     height: medium
+  - url: https://edrys-labs.github.io/code-logger/index.html
+    config: ''
+    showInCustom: station, teacher-only
+    width: full
+    height: tall
   - url: >-
       https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
     config: >-
