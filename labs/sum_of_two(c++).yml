@@ -90,7 +90,7 @@ modules:
     showInCustom: station
     width: full
     height: medium
-  - url: https://edrys-labs.github.io/code-logger/index.html
+  - url: https://edrys-labs.github.io/module-code-logger/
     config: ''
     showInCustom: station, teacher-only
     width: full
