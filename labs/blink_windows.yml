@@ -71,8 +71,7 @@ modules:
     width: full
     height: huge
     serverURL: ws://localhost:8080
-  - url: >-
-      https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
     config:
       content: >-
         # Arduino Tutorial
