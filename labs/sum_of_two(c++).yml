@@ -20,43 +20,45 @@ members:
   student: []
 modules:
   - url: https://edrys-labs.github.io/module-markdown-it/index.html
-    config: >
-      ### Introduction to C++ Programming
+    config:
+      content: >
+        ### Introduction to C++ Programming
 
-      **What is C++?**
+        **What is C++?**
 
-      C++ is a powerful and versatile programming language that is used to create
-      a wide variety of software applications. It is an extension of the C
-      programming language and provides additional features such as object-oriented
-      programming and support for generic programming. C++ is widely used in the
-      development of system software, application software, device drivers, and
-      video games.
+        C++ is a powerful and versatile programming language that is used to create
+        a wide variety of software applications. It is an extension of the C
+        programming language and provides additional features such as object-oriented
+        programming and support for generic programming. C++ is widely used in the
+        development of system software, application software, device drivers, and
+        video games.
 
-      **Task Overview:**
+        **Task Overview:**
 
-      In this lab, you will learn how to write a simple C++ program that calculates
-      the sum of two numbers. You will use the C++ programming language to create a
-      program that takes two numbers as input, adds them together, and then displays
-      the result. 
+        In this lab, you will learn how to write a simple C++ program that calculates
+        the sum of two numbers. You will use the C++ programming language to create a
+        program that takes two numbers as input, adds them together, and then displays
+        the result. 
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: >-
+        ## Welcome for Teachers
 
-      
-    studentConfig: ''
-    teacherConfig: >-
-      ## Welcome for Teachers
 
+        > This can be used as a base laboratory to create further and more
+        elaborate labs with [edrys-Lite](https://edrys-labs.github.io).
 
-      > This can be used as a base laboratory to create further and more
-      elaborate labs with [edrys-Lite](https://edrys-labs.github.io).
+        > You are currently in the Lobby. If there is a station available you can
+        switch to it and try out the terminal.
 
-      > You are currently in the Lobby. If there is a station available you can
-      switch to it and try out the terminal.
+        > Otherwise, if you are in teacher-mode you can share a lab by clicking
+        onto `setting` >> `station` and then by clicking the presented link,
 
-      > Otherwise, if you are in teacher-mode you can share a lab by clicking
-      onto `setting` >> `station` and then by clicking the presented link,
-
-      > which is the same as the current link, but only with the word `station`
-      instead of `classroom`.
-    stationConfig: ''
+        > which is the same as the current link, but only with the word `station`
+        instead of `classroom`.
+    stationConfig:
+      content: ''
     showInCustom: lobby
     width: full
     height: huge
@@ -97,144 +99,148 @@ modules:
     height: tall
   - url: >-
       https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
-    config: >-
-      # Introduction to C++ Programming
+    config:
+      content: >-
+        # Introduction to C++ Programming
 
-      **Objective**: Create a simple C++ program that calculates the sum of two numbers.
-
-
-      1. **Write Your Code**:
-
-        - On the editor, modify the starting code to create a function that calculates the sum of two numbers.
-
-      2. **Compile and Run**:
-
-        - Click on the "Run Code" button to compile and run your program.
-
-      3. **See the Magic**: 
-      
-        - Once uploaded, the compiled program will run on the terminal. If everything is correct, 
-        you should see the sum of the two numbers displayed on the screen. Otherwise, an error message will be shown.
+        **Objective**: Create a simple C++ program that calculates the sum of two numbers.
 
 
-      ### Wrap-Up
+        1. **Write Your Code**:
 
-      Congratulations! You have successfully completed the lab. You have created a simple C++ program that calculates the sum of two numbers.
-    studentConfig: ''
-    teacherConfig: ''
-    stationConfig: >-
-      ## Instructions for Station-Sharing 
+          - On the editor, modify the starting code to create a function that calculates the sum of two numbers.
 
+        2. **Compile and Run**:
 
-      You are currently responsible for sharing a station of this lab.
+          - Click on the "Run Code" button to compile and run your program.
 
-      You have multiple options to share a or your terminal.
-
-      Therefor we use the pyxtermjs - terminal server from:
+        3. **See the Magic**: 
+        
+          - Once uploaded, the compiled program will run on the terminal. If everything is correct, 
+          you should see the sum of the two numbers displayed on the screen. Otherwise, an error message will be shown.
 
 
-      https://github.com/edrys-labs/module-pyxtermjs
+        ### Wrap-Up
+
+        Congratulations! You have successfully completed the lab. You have created a simple C++ program that calculates the sum of two numbers.
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: >-
+        ## Instructions for Station-Sharing 
 
 
-      ### Using Docker
+        You are currently responsible for sharing a station of this lab.
+
+        You have multiple options to share a or your terminal.
+
+        Therefor we use the pyxtermjs - terminal server from:
 
 
-      If you haven't done it so far, install
-      [docker](https://docs.docker.com/engine/install/).
-
-      Or, follow one of the instruction-videos for your system:
+        https://github.com/edrys-labs/module-pyxtermjs
 
 
-      <details>
-
-      <summary>Install Docker on Linux</summary>  
-
-      <iframe
-        style="width: 100%; aspect-ratio: 16 / 9"
-        src="https://www.youtube.com/embed/cqbh-RneBlk?si=juvUM5d2OSZ28WBv"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
-      </details>
+        ### Using Docker
 
 
-      <details>
+        If you haven't done it so far, install
+        [docker](https://docs.docker.com/engine/install/).
 
-      <summary>Install Docker on Windows</summary>
-
-      <iframe
-        style="width: 100%; aspect-ratio: 16 / 9"
-        src="https://www.youtube.com/embed/WDEdRmTCSs8?si=X0agStn1akNcZLGu"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
-      </details>
+        Or, follow one of the instruction-videos for your system:
 
 
-      <details>
+        <details>
 
-      <summary>Install Docker on MacOS</summary>
+        <summary>Install Docker on Linux</summary>  
 
-      <iframe
-        style="width: 100%; aspect-ratio: 16 / 9"
-        src="https://www.youtube.com/embed/-EXlfSsP49A?si=OZ_l4_2hDKb6ULQ_"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
-      </details>
-
-
-      Then the only thing that is required is to run the following command:
+        <iframe
+          style="width: 100%; aspect-ratio: 16 / 9"
+          src="https://www.youtube.com/embed/cqbh-RneBlk?si=juvUM5d2OSZ28WBv"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        </details>
 
 
-      ```bash
+        <details>
 
-      docker run -it -p 5000:5000
-      --device=/dev/ttyACM0:/dev/ttyACM0
-      edrys-labs/pyxterm-server:latest
+        <summary>Install Docker on Windows</summary>
 
-      ```
-
-
-      This will download the pyxtermjs terminal-server from docker-hub and run
-      it in a secure environment.
-
-      ### Using Python
-
-
-      You can also share your terminal directly via Python, visit the following
-      project
+        <iframe
+          style="width: 100%; aspect-ratio: 16 / 9"
+          src="https://www.youtube.com/embed/WDEdRmTCSs8?si=X0agStn1akNcZLGu"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        </details>
 
 
-      https://github.com/edrys-labs/module-pyxtermjs/tree/feat/trzsz
+        <details>
+
+        <summary>Install Docker on MacOS</summary>
+
+        <iframe
+          style="width: 100%; aspect-ratio: 16 / 9"
+          src="https://www.youtube.com/embed/-EXlfSsP49A?si=OZ_l4_2hDKb6ULQ_"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        </details>
 
 
-      ... the easiest way is to perform the following steps:
+        Then the only thing that is required is to run the following command:
 
 
-      ``` bash
+        ```bash
 
-      # 1. clone the repository or download the folder manually
+        docker run -it -p 5000:5000
+        --device=/dev/ttyACM0:/dev/ttyACM0
+        edrys-labs/pyxterm-server:latest
 
-      git clone https://github.com/edrys-labs/module-pyxtermjs/tree/feat/trzsz
-
-
-      # 2. install all required sources
-
-      pip3 install -r requirements.txt
+        ```
 
 
-      # 3. run the terminal-server
+        This will download the pyxtermjs terminal-server from docker-hub and run
+        it in a secure environment.
 
-      python3 -m pyxtermjs --cors True --command bash --port 5000
+        ### Using Python
 
-      ```
+
+        You can also share your terminal directly via Python, visit the following
+        project
+
+
+        https://github.com/edrys-labs/module-pyxtermjs/tree/feat/trzsz
+
+
+        ... the easiest way is to perform the following steps:
+
+
+        ``` bash
+
+        # 1. clone the repository or download the folder manually
+
+        git clone https://github.com/edrys-labs/module-pyxtermjs/tree/feat/trzsz
+
+
+        # 2. install all required sources
+
+        pip3 install -r requirements.txt
+
+
+        # 3. run the terminal-server
+
+        python3 -m pyxtermjs --cors True --command bash --port 5000
+
+        ```
     showInCustom: station
     width: full
     height: huge

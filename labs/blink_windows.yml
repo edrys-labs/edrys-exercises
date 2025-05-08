@@ -15,38 +15,41 @@ members:
   student: []
 modules:
   - url: https://edrys-labs.github.io/module-markdown-it/index.html
-    config: >
-      # Welcome to the Edrys -  Blink - challenge
+    config:
+      content: >
+        # Welcome to the Edrys -  Blink - challenge
 
-      This is a simple exercise to get you started with Arduino development.
+        This is a simple exercise to get you started with Arduino development.
 
-      In this exercise you will need to write a program that will turn on and off the built-in LED.
-
-
-      ## Open a station
-
-      To get started, open the station where the code editor will be available.
-
-      (a new station will appear on the navigation bar on the left.
-      Click on it and you will be redirected to the station.)
-
-    studentConfig: ''
-    teacherConfig: >-
-      ## Welcome for Teachers
+        In this exercise you will need to write a program that will turn on and off the built-in LED.
 
 
-      > This can be used as a base laboratory to create further and more
-      elaborate labs with [edrys-Lite](https://edrys-labs.github.io).
+        ## Open a station
 
-      > You are currently in the Lobby. If there is a station available you can
-      switch to it and try out the terminal.
+        To get started, open the station where the code editor will be available.
 
-      > Otherwise, if you are in teacher-mode you can share a lab by clicking
-      onto `setting` >> `station` and then by clicking the presented link,
+        (a new station will appear on the navigation bar on the left.
+        Click on it and you will be redirected to the station.)
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: >-
+        ## Welcome for Teachers
 
-      > which is the same as the current link, but only with the word `station`
-      instead of `classroom`.
-    stationConfig: ''
+
+        > This can be used as a base laboratory to create further and more
+        elaborate labs with [edrys-Lite](https://edrys-labs.github.io).
+
+        > You are currently in the Lobby. If there is a station available you can
+        switch to it and try out the terminal.
+
+        > Otherwise, if you are in teacher-mode you can share a lab by clicking
+        onto `setting` >> `station` and then by clicking the presented link,
+
+        > which is the same as the current link, but only with the word `station`
+        instead of `classroom`.
+    stationConfig:
+      content: ''
     showInCustom: lobby
     width: full
     height: huge
@@ -70,34 +73,38 @@ modules:
     serverURL: ws://localhost:8080
   - url: >-
       https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
-    config: >-
-      # Arduino Tutorial
+    config:
+      content: >-
+        # Arduino Tutorial
 
 
-      ## Your First Project - The Blinking LED
+        ## Your First Project - The Blinking LED
 
 
-      **Objective**: To make an LED blink on and off every second.
+        **Objective**: To make an LED blink on and off every second.
 
 
-        - Start writing your code in the editor on the left.
-        - Click on the `Run` button to compile and upload your code to the Arduino board.
-        - The LED should start blinking on and off every second, if the code is correct.
-    studentConfig: ''
-    teacherConfig: ''
-    stationConfig: >-
-      ## Instructions for Station-Sharing 
+          - Start writing your code in the editor on the left.
+          - Click on the `Run` button to compile and upload your code to the Arduino board.
+          - The LED should start blinking on and off every second, if the code is correct.
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: >-
+        ## Instructions for Station-Sharing 
 
-      You are currently responsible for sharing a station of this lab.
-
-
-      This lab is designed for stations running on a windows machine.
-
-
-      To allow other users to access the station and upload their code to the connected board, you need to run the following server locally:
+        You are currently responsible for sharing a station of this lab.
 
 
-      https://github.com/jh-488/edrys_server
+        This lab is designed for stations running on a windows machine.
+
+
+        To allow other users to access the station and upload their code to the connected board, you need to run the following server locally:
+
+
+        https://github.com/jh-488/edrys_server
     showInCustom: station
     width: half
     height: huge
@@ -111,4 +118,4 @@ modules:
     showInCustom: Station
     width: half
     height: medium
-  
+
